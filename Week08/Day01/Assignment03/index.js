@@ -1,7 +1,7 @@
 function bmiCalc(w,h){
-    let bmi
+    let bmi = w/ (h * h);
 
-    return bmi;
+    return Math.round(bmi);
 
 }
 
